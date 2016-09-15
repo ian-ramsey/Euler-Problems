@@ -15,8 +15,8 @@ public class p
         //       System.out.println();
         //       System.out.print(""+ i + p.isPrime(i) + ",");
         //     }
-        for (int n = 1; n<=a; n++)
-        System.out.println(""+ n + "\t" + p.phi3(n));
+        //for (int n = 1; n<=a; n++)
+        //System.out.println(""+ n + "\t" + p.phi3(n));
         
     }
 }

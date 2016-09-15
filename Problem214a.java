@@ -31,13 +31,13 @@ public class Problem214a {
            return (m & 1)==0 ? phi3(m)<<1 : phi3(m);// if m is even return phi3(m)*2 else return phi3(m)
        }
        for(int g = 2; g<n; g++){ 
-          if ((n % g)==1)
+          if ((n % g)!=0)
            continue;
            int o = n/g;
            int d = gcd(g,o);
            return d==1 ? phi3(g)*phi3(o) : phi3(g)*phi3(o)*d/phi3(d);
         }
-        return -1;
+        return 0;
     }
     public int gcd(int a,int b){
         if (b == 0)

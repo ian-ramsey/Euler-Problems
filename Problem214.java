@@ -12,8 +12,8 @@ public class Problem214
             }
             
         }
-        if (i%10000000 ==0)
-            System.out.println(i);
+        //if (i%10000000 ==0)
+        //    System.out.println(i);
        }
        System.out.println(total);
        System.out.println("1677366278943");
